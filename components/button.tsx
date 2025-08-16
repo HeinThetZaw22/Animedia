@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: "white",
-    fontSize: heightPercent(2.5),
+    fontSize: heightPercent(2),
     fontWeight: theme.fonts.bold,
   },
 });

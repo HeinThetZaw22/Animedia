@@ -1,0 +1,4 @@
+export const SUPABASE_PASSWORD = "ip9hi2iEhvn76i0L";
+export const SUPABASE_URL = "https://vxzqkgayvynyvtrpkenz.supabase.co";
+export const SUPABASE_ANON_KEY =
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ4enFrZ2F5dnlueXZ0cnBrZW56Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUzMjM5NjYsImV4cCI6MjA3MDg5OTk2Nn0.aqftHqulJiF0rmCxuJy77jN53vg9QqaWX_64pTiZeA0";

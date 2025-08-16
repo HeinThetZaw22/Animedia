@@ -40,19 +40,9 @@ const WelcomePgae = () => {
             buttonStyle={{ marginHorizontal: widthPercent(3) }}
           />
           <View style={styles.footerTextContainer}>
-            <Text style={styles.loginText}>Already have an account?</Text>
+            <Text style={styles.textLabel}>Already have an account?</Text>
             <Pressable onPress={() => router.push("/login")}>
-              <Text
-                style={[
-                  styles.loginText,
-                  {
-                    color: theme.color.primaryDark,
-                    fontWeight: theme.fonts.semibold,
-                  },
-                ]}
-              >
-                Login
-              </Text>
+              <Text style={[styles.loginText]}>Login</Text>
             </Pressable>
           </View>
         </View>
@@ -88,6 +78,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: widthPercent(10),
     color: theme.color.text,
   },
+  textLabel: {
+    fontSize: heightPercent(1.6),
+    color: theme.color.text,
+  },
   footer: {
     width: "100%",
     gap: 20,
@@ -100,7 +94,8 @@ const styles = StyleSheet.create({
   },
   loginText: {
     textAlign: "center",
-    color: theme.color.text,
     fontSize: heightPercent(1.6),
+    color: theme.color.primaryDark,
+    fontWeight: theme.fonts.semibold,
   },
 });
